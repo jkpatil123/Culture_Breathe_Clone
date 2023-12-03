@@ -1,0 +1,84 @@
+.footer-mid p{
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: var(--token-d65ac95d-b58e-4758-9b13-8d278c7eba2e, rgb(107, 107, 120));
+}
+
+.footer-btn{
+    background-color: black;
+    margin-top: 30px;
+      opacity: 1; 
+      border-radius: 12px;
+       transform: none;
+       width:200px;
+       margin-left:40%;
+       color: #ffff;
+       font-size: 16px;
+}
+.footer-box{
+    /* display: flex;
+    align-items: center; */
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 24px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: min-content;
+}
+.footer p{
+    /* margin-top:60px; */
+   text-align: left;  /* font-family:sans-serif; */
+  font-size:15px;
+  /* text-align: calc(20); */
+  /* font-weight:400; */
+  height:100px;
+  width:340px;
+  line-height:22px;
+  padding-left: 10px;
+  background-color:'rgba(254, 233, 203, 1)';
+ 
+}
+.footer-image{
+    width:90px;
+    height:80px;
+    float:'left';
+    margin-top:50px;
+   
+    
+}
+.footer-bottom ul li{
+    padding-top: 20px;
+}
+
+.footer-bottom{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: #f1f2f4;
+}
+.footer-bottom h3{
+    
+    font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 115%;
+    text-align: center;
+  
+    color: var(--extracted-r6o4lv);
+}

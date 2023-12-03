@@ -1,0 +1,83 @@
+.midTop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top:200px;
+      /* position:fixed; */
+      /* /* margin-top:; 
+      paddin */
+      ;}
+.midTop ul li span{
+    /* selector: R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw; */
+font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+    font-weight: 700;
+    margin-left: 25%;
+    padding: 8px 16px;
+    background-color: #f1f2f4;
+    /* border: 1px solid rgb(209, 205, 205); */
+  line-height: 120%;
+  border-radius: 50px;
+color: var(--token-3033e439-728d-45b7-903f-4a2ad3a553fd, rgb(46, 46, 46));
+}
+
+.midTop ul li h2{
+    list-style-type: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    padding:10px 0;
+  font-weight: 500;
+  line-height: 32px;
+    text-align: center;
+  color: var(--token-d65ac95d-b58e-4758-9b13-8d278c7eba2e, rgb(107, 107, 120));
+}
+li{
+    list-style-type: none;
+}
+
+ul li p{
+    padding-top: 10px;
+    font-size: 80px;
+    text-align: center;
+    font-weight:790;
+    font-style: normal;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+    line-height: 90px;
+    /* text-align: start; */
+    /* color:  #000; */
+    text-decoration-color: rgb(46, 46, 46);
+    
+}
+ul li span{
+    font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+    font-style: var(--framer-font-style, normal);
+    font-weight: var(--framer-font-weight, 400);
+    color: var(--framer-text-color, #000);
+    font-size: var(--framer-font-size, 16px);
+    letter-spacing: var(--framer-letter-spacing, 0);
+    text-transform: var(--framer-text-transform, none);
+    text-decoration: var(--framer-text-decoration, none);
+    line-height: var(--framer-line-height, 1.2em);
+    text-align: var(--framer-text-alignment, start);
+}
+.btn{
+    background-color: #2e2e2e;
+  color: #fefefe;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-left: 35%;
+  margin-top: 20px;
+  margin-bottom:4px;
+}
+li h3{
+    
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 12px;
+     font-weight: 500;
+      line-height: 120%;
+      text-align: center;
+       color: var(--token-d65ac95d-b58e-4758-9b13-8d278c7eba2e, rgb(107, 107, 120));
+    
+}

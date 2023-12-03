@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Discover from './components/Discover';
+import Event from './components/Event';
+import Header from './components/Header';
+import Midbox from './components/Midbox';
+import Superpage from './components/Superpage';
+import Card from './components/Card';
+import Footer from './components/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <Midbox/>
+      {/* <Event/> */}
+      <Superpage/>
+      <Discover/>
+      <Card/>
+      <Event />
+      <Footer/>
+     
     </div>
   );
 }
+
 
 export default App;
